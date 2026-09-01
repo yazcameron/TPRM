@@ -1,0 +1,15 @@
+[project]
+name = "tprm-reviewer"
+version = "0.1.0"
+description = "TPRM intake and review — engagement state and HTML rendering"
+requires-python = ">=3.12"
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
