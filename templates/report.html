@@ -1,0 +1,41 @@
+{{tab_bar}}
+<div id="assessment" class="tab-panel active">
+<h1>Risk Assessment Report — {{vendor_name}}</h1>
+<p class="meta">Tier {{tier}}</p>
+
+<h2>1. Engagement Summary</h2>
+<p>{{engagement_summary}}</p>
+
+<h2>2. Data Profile</h2>
+<dl>
+  <dt>Personal information (PI/PII)</dt>
+  <dd>{{personal_information}}</dd>
+  <dt>Data sharing mechanism</dt>
+  <dd>{{data_sharing_mechanism}}</dd>
+  <dt>Integration type and depth</dt>
+  <dd>{{integration_type_and_depth}}</dd>
+  <dt>Deletion posture (VSQ)</dt>
+  <dd>{{deletion_posture}}</dd>
+</dl>
+
+<h2>3. Scope</h2>
+<dl>
+  <dt>Products and services in scope</dt>
+  <dd>{{products_and_services}}</dd>
+  <dt>AI features</dt>
+  <dd>{{ai_features_block}}</dd>
+  <dt>Data flow</dt>
+  <dd>{{data_flow}}</dd>
+</dl>
+
+<h2>4. Baseline Snapshot</h2>
+{{baseline_snapshot}}
+
+<h2>5. Risk Summary</h2>
+{{risks_table}}
+
+<h2>6. Follow-ups required — scoping and review questions</h2>
+<p class="intro">{{follow_ups_intro}}</p>
+{{follow_ups_block}}
+</div>
+{{tprm_gaps_panel}}
