@@ -66,7 +66,7 @@ If they already attached files or pasted intake in the same message, do not re-a
 ## Phase 1 — Intake & Triage
 
 Parse the intake and all uploaded materials. Extract: vendor name, description, integration type, data to be shared, requester details, Zip request number if present.
-Assign a vendor tier (Tier 1 / 2 / 3) based on data sensitivity and integration depth.
+Assign a vendor tier (Tier 1 / 2 / 3) based on data sensitivity and integration depth. When the assessment starts, output the 12-row vendor risk tiering table with a proposed Zip tier marked Unconfirmed. Each Selection must be copied exactly from the question's dropdown list in `references/tiering.md`. Do not invent a label, and do not substitute Low, Medium, or High on a question whose options are phrases.
 Tier 1: high sensitivity, deep integration (e.g. sub-processor, PII access)
 Tier 2: moderate sensitivity or limited integration
 Tier 3: low sensitivity, no personal data

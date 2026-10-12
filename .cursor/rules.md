@@ -84,7 +84,7 @@ If a follow-up is needed:
 
 Load these as needed:
 
-- **`references/tiering.md`** — Vendor tier assignment (1=high sensitivity/deep integration, 2=moderate, 3=low)
+- **`references/tiering.md`** — Vendor tier assignment (1=high sensitivity/deep integration, 2=moderate, 3=low) and the exact Zip dropdown label for each of the 12 scoring questions. Copy the Selection from that list.
 - **`references/baseline-snapshot.md`** — Rules for DPA, SFP EU 30-day notice, integration design, app-owner sign-offs. Never omit this section in reports.
 - **`references/report-outline.md`** — Risk Assessment Report schema and payload structure
 - **`references/pause-rules.md`** — When/how to pause and resume
